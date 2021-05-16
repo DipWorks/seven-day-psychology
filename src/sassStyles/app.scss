@@ -1,0 +1,154 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+$navbar-light-color: rgba(black, 0.9);
+// $light: rgba(gray, 0.1);
+$navbar-brand-font-size: 2rem;
+
+$carousel-transition-duration: 0.8s;
+
+// now import bootstrap scss
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "https://fonts.google.com/specimen/Poppins?query=poppins#standard-styles";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
+
+.appLogo {
+  width: 5em;
+  height: 5em;
+}
+
+.nav-link {
+  font-size: 1.1em;
+}
+
+.text-navlink {
+  font-size: larger;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+}
+
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 5px #000;
+  padding-bottom: 1 rem;
+}
+
+.carousel-caption p {
+  font-size: 150%;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.btn-secondary {
+  font-weight: 500;
+}
+
+.btn-outline-dark {
+  border: 1.5px solid;
+}
+
+.jumbotron {
+  padding: 2rem;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.fun {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.gif {
+  max-width: 100%;
+}
+
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+  margin-bottom: 5rem;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-google {
+  color: #dd4b39;
+}
+
+.fa-instagram {
+  color: #9351a4;
+}
+
+.fa-youtube {
+  color: #bb0000;
+}
+.fa-facebook:hover,
+.fa-google:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: #493f3f;
+}
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.footer-logo {
+  width: 10rem;
+}
+
+.footer-logo-col {
+  transform: translateY(-20%);
+  padding: 0;
+  margin: 0;
+}
+
+.img-thumbnail {
+  width: 20rem;
+  height: 20rem;
+}
+
+.about-us {
+  padding-top: 3rem;
+}
+
+.social-icons {
+  padding-bottom: 2rem;
+}
